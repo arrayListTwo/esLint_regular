@@ -14,7 +14,7 @@ module.exports = {
     'block-scoped-var': 0,
     'brace-style': [2, '1tbs', { 'allowSingleLine': true }],
     'camelcase': 0,
-    'comma-dangle': [2, 'never'],
+    'comma-dangle': ['error', 'always-multiline'],
     'comma-spacing': [2, { 'before': false, 'after': true }],
     'comma-style': [2, 'last'],
     'complexity': 0,
